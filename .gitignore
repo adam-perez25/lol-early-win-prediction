@@ -1,0 +1,24 @@
+# Dades (massa grans per al repositori; es descarreguen de Kaggle, vegeu el README)
+data/*
+!data/.gitkeep
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Entorns virtuals
+.venv/
+venv/
+env/
+
+# Credencials de l'API de Kaggle
+kaggle.json
+
+# Editors i sistema operatiu
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
